@@ -1,0 +1,1 @@
+ALTER TABLE `Profile` ADD `IsVersionChanged` BOOLEAN DEFAULT 0 NULL AFTER `ApprovalStatusId`;

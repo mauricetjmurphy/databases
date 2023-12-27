@@ -1,0 +1,5 @@
+ALTER TABLE PlatformWindow
+    ADD COLUMN `TxEventId` BIGINT DEFAULT NULL,
+    ADD COLUMN `TxPlayNo` SMALLINT DEFAULT NULL,
+    ADD COLUMN `TxNo` SMALLINT DEFAULT NULL,
+    ADD INDEX `PlatformWindow_TxEventId_Idx` (`TxEventId`);

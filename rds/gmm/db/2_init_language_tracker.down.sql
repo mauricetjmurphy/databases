@@ -1,0 +1,12 @@
+ALTER TABLE `MediaType` DROP COLUMN `Code`;
+ALTER TABLE `Language` DROP COLUMN `CultureCode`, DROP COLUMN `Code`;
+ALTER TABLE `Vendor` DROP `Description`;
+DROP TABLE IF EXISTS `OrderTracker`;
+DROP TABLE IF EXISTS `LanguageTracker`;
+DROP TABLE IF EXISTS `Channel`;
+DROP TABLE IF EXISTS `Programme`;
+DROP TABLE IF EXISTS `ProgrammeType`;
+DROP TABLE IF EXISTS `Series`;
+DROP TABLE IF EXISTS `Contract`;
+DROP TABLE IF EXISTS `Episode`;
+DROP TABLE IF EXISTS `POStatus`;

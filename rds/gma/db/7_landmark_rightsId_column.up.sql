@@ -1,0 +1,1 @@
+ALTER TABLE `Allocation` ADD LandmarkRightsID varchar(255) NULL AFTER `ProgrammeId`;

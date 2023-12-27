@@ -1,0 +1,2 @@
+DROP TABLE IF EXISTS `OrderEvent`;
+DROP TABLE IF EXISTS `OrderStatus`;

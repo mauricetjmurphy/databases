@@ -1,0 +1,1 @@
+DROP PROCEDURE IF EXISTS `migrate-platform-availability`;

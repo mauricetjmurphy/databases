@@ -1,0 +1,11 @@
+DROP TABLE IF EXISTS `PlatformImage`;
+DROP TABLE IF EXISTS `MasterImage`;
+DROP TABLE IF EXISTS `ImageWorklist`;
+DROP TABLE IF EXISTS `ImageFile`;
+DROP TABLE IF EXISTS `MasterImageType`;
+DROP TABLE IF EXISTS `Level`;
+DROP TABLE IF EXISTS `Orientation`;
+DROP TABLE IF EXISTS `Language`;
+DROP TABLE IF EXISTS `AspectRatio`;
+DROP TABLE IF EXISTS `User`;
+DROP TABLE IF EXISTS `schema_migrations`;

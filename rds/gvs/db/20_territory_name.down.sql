@@ -1,0 +1,1 @@
+ALTER TABLE `Territory` MODIFY `Name` varchar(255);

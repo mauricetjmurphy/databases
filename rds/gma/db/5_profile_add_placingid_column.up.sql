@@ -1,0 +1,1 @@
+ALTER TABLE `Profile` ADD PlacingId varchar(255) NULL AFTER `EditId`;
