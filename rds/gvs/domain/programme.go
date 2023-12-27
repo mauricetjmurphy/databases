@@ -1,11 +1,11 @@
 package domain
 
 import (
-	"github.com/NBCUniversal/gvs-ms-common/db/entity"
-	"github.com/NBCUniversal/gvs-ms-common/libs/ptr"
-	"github.com/NBCUniversal/gvs-ms-common/types/settings/objects"
-	"github.com/NBCUniversal/gvs-ms-common/types/settings/programme"
-	"github.com/NBCUniversal/gvs-ms-common/types/utils"
+	"github.com/mauricetjmurphy/ms-common/db/entity"
+	"github.com/mauricetjmurphy/ms-common/libs/ptr"
+	"github.com/mauricetjmurphy/ms-common/types/settings/objects"
+	"github.com/mauricetjmurphy/ms-common/types/settings/programme"
+	"github.com/mauricetjmurphy/ms-common/types/utils"
 )
 
 const (

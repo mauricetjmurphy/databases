@@ -1,7 +1,7 @@
 package domain
 
 import (
-	"github.com/NBCUniversal/gvs-ms-common/types/settings/territory"
+	"github.com/mauricetjmurphy/ms-common/types/settings/territory"
 )
 
 const (

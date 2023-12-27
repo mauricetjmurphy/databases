@@ -1,24 +1,3 @@
-# github.com/NBCUniversal/gvs-ms-common v0.0.0-20230928111103-c6cbdce0472b
-## explicit; go 1.18
-github.com/NBCUniversal/gvs-ms-common/clients/aws
-github.com/NBCUniversal/gvs-ms-common/clients/aws/secrets
-github.com/NBCUniversal/gvs-ms-common/db
-github.com/NBCUniversal/gvs-ms-common/db/entity
-github.com/NBCUniversal/gvs-ms-common/db/migrate
-github.com/NBCUniversal/gvs-ms-common/db/query
-github.com/NBCUniversal/gvs-ms-common/db/query/criteria
-github.com/NBCUniversal/gvs-ms-common/libs/datetime
-github.com/NBCUniversal/gvs-ms-common/libs/ptr
-github.com/NBCUniversal/gvs-ms-common/logx
-github.com/NBCUniversal/gvs-ms-common/types/settings/channel
-github.com/NBCUniversal/gvs-ms-common/types/settings/objects
-github.com/NBCUniversal/gvs-ms-common/types/settings/platform
-github.com/NBCUniversal/gvs-ms-common/types/settings/programme
-github.com/NBCUniversal/gvs-ms-common/types/settings/rights
-github.com/NBCUniversal/gvs-ms-common/types/settings/status
-github.com/NBCUniversal/gvs-ms-common/types/settings/territory
-github.com/NBCUniversal/gvs-ms-common/types/settings/timezone
-github.com/NBCUniversal/gvs-ms-common/types/utils
 # github.com/aws/aws-sdk-go-v2 v1.17.5
 ## explicit; go 1.15
 github.com/aws/aws-sdk-go-v2
@@ -138,6 +117,27 @@ github.com/jinzhu/inflection
 # github.com/jinzhu/now v1.1.5
 ## explicit; go 1.12
 github.com/jinzhu/now
+# github.com/mauricetjmurphy/ms-common v0.0.0-20231227160615-59c9f93da445
+## explicit; go 1.18
+github.com/mauricetjmurphy/ms-common/clients/aws
+github.com/mauricetjmurphy/ms-common/clients/aws/secrets
+github.com/mauricetjmurphy/ms-common/db
+github.com/mauricetjmurphy/ms-common/db/entity
+github.com/mauricetjmurphy/ms-common/db/migrate
+github.com/mauricetjmurphy/ms-common/db/query
+github.com/mauricetjmurphy/ms-common/db/query/criteria
+github.com/mauricetjmurphy/ms-common/libs/datetime
+github.com/mauricetjmurphy/ms-common/libs/ptr
+github.com/mauricetjmurphy/ms-common/logx
+github.com/mauricetjmurphy/ms-common/types/settings/channel
+github.com/mauricetjmurphy/ms-common/types/settings/objects
+github.com/mauricetjmurphy/ms-common/types/settings/platform
+github.com/mauricetjmurphy/ms-common/types/settings/programme
+github.com/mauricetjmurphy/ms-common/types/settings/rights
+github.com/mauricetjmurphy/ms-common/types/settings/status
+github.com/mauricetjmurphy/ms-common/types/settings/territory
+github.com/mauricetjmurphy/ms-common/types/settings/timezone
+github.com/mauricetjmurphy/ms-common/types/utils
 # github.com/pkg/errors v0.9.1
 ## explicit
 github.com/pkg/errors
@@ -156,12 +156,12 @@ go.uber.org/atomic
 # golang.org/x/sync v0.1.0
 ## explicit
 golang.org/x/sync/errgroup
-# golang.org/x/sys v0.5.0
+# golang.org/x/sys v0.8.0
 ## explicit; go 1.17
 golang.org/x/sys/internal/unsafeheader
 golang.org/x/sys/unix
 golang.org/x/sys/windows
-# google.golang.org/protobuf v1.28.1
+# google.golang.org/protobuf v1.30.0
 ## explicit; go 1.11
 google.golang.org/protobuf/encoding/prototext
 google.golang.org/protobuf/encoding/protowire

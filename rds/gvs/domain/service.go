@@ -1,8 +1,8 @@
 package domain
 
 import (
-	e "github.com/NBCUniversal/gvs-ms-common/db/entity"
-	"github.com/NBCUniversal/gvs-ms-common/types/settings/objects"
+	e "github.com/mauricetjmurphy/ms-common/db/entity"
+	"github.com/mauricetjmurphy/ms-common/types/settings/objects"
 )
 
 const (

@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/NBCUniversal/imt-databases/commands"
+	"github.com/mauricetjmurphy/databases/commands"
 
 	_ "github.com/golang-migrate/migrate/v4/source/file"
 )

@@ -4,10 +4,10 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/NBCUniversal/gvs-ms-common/db/entity"
-	"github.com/NBCUniversal/gvs-ms-common/types/settings/objects"
-	"github.com/NBCUniversal/gvs-ms-common/types/settings/rights"
-	"github.com/NBCUniversal/gvs-ms-common/types/settings/territory"
+	"github.com/mauricetjmurphy/ms-common/db/entity"
+	"github.com/mauricetjmurphy/ms-common/types/settings/objects"
+	"github.com/mauricetjmurphy/ms-common/types/settings/rights"
+	"github.com/mauricetjmurphy/ms-common/types/settings/territory"
 )
 
 const (

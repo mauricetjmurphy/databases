@@ -3,7 +3,7 @@ package configs
 import (
 	"context"
 
-	"github.com/NBCUniversal/gvs-ms-common/db"
+	"github.com/mauricetjmurphy/ms-common/db"
 )
 
 type RDS struct {

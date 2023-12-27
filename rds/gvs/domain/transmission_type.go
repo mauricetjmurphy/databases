@@ -1,8 +1,8 @@
 package domain
 
 import (
-	"github.com/NBCUniversal/gvs-ms-common/libs/ptr"
-	"github.com/NBCUniversal/gvs-ms-common/types/settings/objects"
+	"github.com/mauricetjmurphy/ms-common/libs/ptr"
+	"github.com/mauricetjmurphy/ms-common/types/settings/objects"
 )
 
 const (

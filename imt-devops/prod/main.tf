@@ -1,5 +1,5 @@
 module "template" {
-  source = "git::https://github.com/NBCUniversal/terraform-modules.git//buildspec"
+  source = "git::https://github.com/mauricetjmurphy/terraform-modules.git//buildspec"
 }
 
 data "template_file" "buildspec" {
@@ -12,11 +12,11 @@ data "template_file" "buildspec" {
 
 module "codepipeline_imt-databases" {
   environment               = var.environment
-  source                    = "git::https://github.com/NBCUniversal/terraform-modules.git//codepipeline"
+  source                    = "git::https://github.com/mauricetjmurphy/terraform-modules.git//codepipeline"
   git_token                 = data.aws_ssm_parameter.github-token.value
-  git_organization          = "NBCUniversal"
+  git_organization          = "mauricetjmurphy"
   git_domain                = "https://github.com"
-  git_repository_name       = "imt-databases"
+  git_repository_name       = "databases"
   git_branch                = var.git_branch
   git_application_name      = "gvs-rds"
   git_buildspec_file        = data.template_file.buildspec.rendered

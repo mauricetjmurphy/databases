@@ -48,7 +48,7 @@ variable "git_branch" {
 
 # ************************************************************************************************************************************
 module "template" {
-  source = "git::https://github.com/NBCUniversal/terraform-modules.git//buildspec"
+  source = "git::https://github.com/mauricetjmurphy/terraform-modules.git//buildspec"
 }
 
 data "template_file" "buildspec" {
@@ -75,9 +75,9 @@ data "aws_ssm_parameter" "github-token" {
 # ************************************************************************************************************************************
 module "codepipeline_imt-databases" {
   environment               = var.environment
-  source                    = "git::https://github.com/NBCUniversal/terraform-modules.git//codepipeline"
+  source                    = "git::https://github.com/mauricetjmurphy/terraform-modules.git//codepipeline"
   git_token                 = data.aws_ssm_parameter.github-token.value
-  git_organization          = "NBCUniversal"
+  git_organization          = "mauricetjmurphy"
   git_domain                = "https://github.com"
   git_repository_name       = "imt-databases"
   git_branch                = var.git_branch

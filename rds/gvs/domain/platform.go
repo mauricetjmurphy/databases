@@ -3,10 +3,10 @@ package domain
 import (
 	"time"
 
-	"github.com/NBCUniversal/gvs-ms-common/db/entity"
-	"github.com/NBCUniversal/gvs-ms-common/libs/datetime"
-	"github.com/NBCUniversal/gvs-ms-common/types/settings/objects"
-	"github.com/NBCUniversal/gvs-ms-common/types/settings/platform"
+	"github.com/mauricetjmurphy/ms-common/db/entity"
+	"github.com/mauricetjmurphy/ms-common/libs/datetime"
+	"github.com/mauricetjmurphy/ms-common/types/settings/objects"
+	"github.com/mauricetjmurphy/ms-common/types/settings/platform"
 )
 
 const (

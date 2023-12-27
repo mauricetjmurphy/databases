@@ -3,11 +3,11 @@ package domain
 import (
 	"time"
 
-	"github.com/NBCUniversal/gvs-ms-common/db/entity"
-	"github.com/NBCUniversal/gvs-ms-common/libs/datetime"
-	"github.com/NBCUniversal/gvs-ms-common/types/settings/channel"
-	"github.com/NBCUniversal/gvs-ms-common/types/settings/rights"
-	"github.com/NBCUniversal/gvs-ms-common/types/settings/territory"
+	"github.com/mauricetjmurphy/ms-common/db/entity"
+	"github.com/mauricetjmurphy/ms-common/libs/datetime"
+	"github.com/mauricetjmurphy/ms-common/types/settings/channel"
+	"github.com/mauricetjmurphy/ms-common/types/settings/rights"
+	"github.com/mauricetjmurphy/ms-common/types/settings/territory"
 )
 
 const (

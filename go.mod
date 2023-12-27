@@ -1,10 +1,10 @@
-module github.com/NBCUniversal/imt-databases
+module github.com/mauricetjmurphy/databases
 
 go 1.18
 
 require (
-	github.com/NBCUniversal/gvs-ms-common v0.0.0-20230928111103-c6cbdce0472b
 	github.com/golang-migrate/migrate/v4 v4.15.2
+	github.com/mauricetjmurphy/ms-common v0.0.0-20231227160615-59c9f93da445
 	github.com/spf13/cobra v1.6.1
 	gorm.io/gorm v1.24.5
 )
@@ -35,7 +35,7 @@ require (
 	github.com/spf13/pflag v1.0.5 // indirect
 	go.uber.org/atomic v1.10.0 // indirect
 	golang.org/x/sync v0.1.0 // indirect
-	golang.org/x/sys v0.5.0 // indirect
-	google.golang.org/protobuf v1.28.1 // indirect
+	golang.org/x/sys v0.8.0 // indirect
+	google.golang.org/protobuf v1.30.0 // indirect
 	gorm.io/driver/mysql v1.4.7 // indirect
 )

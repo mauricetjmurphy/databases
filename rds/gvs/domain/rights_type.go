@@ -5,8 +5,8 @@ import (
 	"strconv"
 	"strings"
 
-	e "github.com/NBCUniversal/gvs-ms-common/db/entity"
-	rpb "github.com/NBCUniversal/gvs-ms-common/types/settings/rights"
+	e "github.com/mauricetjmurphy/ms-common/db/entity"
+	rpb "github.com/mauricetjmurphy/ms-common/types/settings/rights"
 )
 
 const (

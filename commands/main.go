@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/NBCUniversal/gvs-ms-common/logx"
-	"github.com/NBCUniversal/imt-databases/configs"
+	"github.com/mauricetjmurphy/databases/configs"
+	"github.com/mauricetjmurphy/ms-common/logx"
 	"github.com/spf13/cobra"
 )
 

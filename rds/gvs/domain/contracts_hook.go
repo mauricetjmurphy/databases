@@ -1,7 +1,7 @@
 package domain
 
 import (
-	"github.com/NBCUniversal/gvs-ms-common/logx"
+	"github.com/mauricetjmurphy/ms-common/logx"
 	"gorm.io/gorm"
 	"gorm.io/gorm/clause"
 )
